@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>order design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1230">
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/common.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="path/to/your/html5shiv-printshiv.js"></script><![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </head>
+  <body class="p-lc-order-design">
+    <header class="b-header-lc">
+      <div class="b-container">
+        <div class="b-header-lc__wrap">
+          <div class="b-header-lc__left"><a href="#" class="b-header-lc__logo"><img src="img/logo-blue.png" class="b-header-lc__logo-img" alt=""/></a>
+          </div>
+          <div class="b-header-lc__right">
+            <div class="b-header-lc__nav">
+              <nav class="b-lc-nav"><a href="#" class="b-lc-nav__link b-lc-nav__link_active b-lc-nav__link_user">Мой кабинет</a><a href="#" class="b-lc-nav__link b-lc-nav__link_doc">Оформить заявку</a><a href="#" class="b-lc-nav__link b-lc-nav__link_plus">Создать раскладку</a><a href="#" class="b-lc-nav__link b-lc-nav__link_tools">Заказать дизайн</a>
+              </nav>
+            </div>
+            <div class="b-header-lc__logout"><a href="#" class="b-btn">Выйти</a>
+            </div>
+          </div>
+        </div>
+        <div class="b-header-lc__print-logo"><img src="img/logo-blue.png" class="b-header-lc__logo-img" alt=""/>
+        </div>
+      </div>
+    </header>
+    <div class="b-container">
+      <section class="b-lc-top-area">
+        <div class="b-lc-top-area__title-wrap"><span class="b-title-a">Создание раскладки</span>
+        </div>
+      </section>
+      <section class="b-lc-box">
+        <div class="b-side-box">
+          <div class="b-side-box__left">
+            <div class="b-sidebar">
+              <div class="b-sidebar__item">
+                <form class="b-search">
+                  <input type="text" placeholder="Поиск..." class="b-search__input"/>
+                  <input type="submit" value="" class="b-search__submit"/>
+                </form>
+              </div>
+              <div class="b-sidebar__item">
+                <div class="b-images">
+                  <div class="b-images__list mCustomScrollbar" data-mcs-theme="minimal-dark">
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/masha-01.png" alt="" data-color='["01","1b","22"]'>
+                    </div>                    
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/masha-02.png" alt="" data-color='["1b","mn"]'>
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/masha-03.png" alt="" data-color='["01","1b","mn"]'>
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/1.png" alt="" data-color='["01","1b","22"]'>
+                    </div>                    
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/2.png" alt="" data-color='["1b","mn"]'>
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/3.png" alt="" data-color='["01","1b","mn"]'>
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/IceBerg1.1.png" alt="">
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/iceberg2.1.png" alt="">
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/iceberg3.1.png" alt="">
+                    </div>                    
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/manager.png" alt="">
+                    </div>                    
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/companyDmitry.png" alt="">
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/companySergey.png" alt="">
+                    </div>
+                    <div class="b-images__item">
+                      <img draggable="true" src="img/companyIrina.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="b-side-box__right">
+            <form class="b-pattern">
+              <div class="b-pattern__content">
+                <div class="b-pattern__top">
+                  <div class="b-box-b">
+                    <div class="b-box-b__left">
+                      
+                      <div class="b-action" style="margin-top: 10px">
+                        <div class="b-action__grid">
+                          <label class="b-action__grid-label">
+                            Размер сетки
+                            <input type="number" class="b-action__btn_grid" min="5" max="999" maxlength="3">                              
+                          </label>  
+                          <label class="b-checkbox"> 
+                            <input type="checkbox" class="b-checkbox__native b-action__btn_net" >
+                            <span class="b-checkbox__custom"></span>
+                            <span class="b-checkbox__title">Показать сетку</span>                           
+                          </label>       
+                                               
+                        </div>
+                        
+                      </div>
+                      
+                    </div>
+                    <div class="b-box-b__right">
+                      <div class="b-btn-b b-btn-b_green b-btn-b_save"/>СОХРАНИТЬ</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="b-pattern__bottom">
+                  <div class="b-action">
+                    <div class="b-action__btn b-action__btn_turn">Повернуть</div>
+                    <div class="b-action__btn b-action__btn_duplicate">Дублировать:</div>
+                    <div class="b-action__btn b-action__btn_right">Вправо</div>
+                    <div class="b-action__btn b-action__btn_bottom">Вниз</div>
+                    <div class="b-action__btn b-action__btn_scale" title=" При каждом клике - изменение размера изображения на 2%">ВНВ</div>
+                    <div class="b-action__btn b-action__btn_delete">Удалить элемент</div>
+                    <div class="b-action__btn b-action__btn_clear">Очистить раскладку</div>
+                  </div>
+                  <div class="b-pattern__area" id="canvas-container">
+                    <div class="b-pattern__text">Перетяните в эту область нужную вам картинку для раскладки</div>
+                    <canvas id="canvas" width="836px" height="568px" ></canvas>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <canvas id="canvas2" width="836px" height="568px" style="position: fixed"></canvas>
+
+      <div id="preload" style="display: none">
+        <div class="b-success-wrap">
+          <div class="cssload-container">
+            <div class="cssload-circle-1">
+              <div class="cssload-circle-2">
+                <div class="cssload-circle-3">
+                  <div class="cssload-circle-4">
+                    <div class="cssload-circle-5">
+                      <div class="cssload-circle-6">
+                        <div class="cssload-circle-7">
+                          <div class="cssload-circle-8">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="b-success-text">Загружается раскладка!
+          </div>
+        </div>      
+      </div>
+
+      <div id="pattern" style="display: none">
+        <div class="b-success-wrap">
+          <div class="b-success-img"></div>
+          <div class="b-success-text">Спасибо мы, <br> получили вашу раскладку!
+          </div>
+        </div>      
+      </div>
+
+
+
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- <script src="js/client.min.js"></script> -->
+    <script src="js/fabric.min.js"></script>
+    <script src="js/canvas.js"></script>
+  </body>
+</html>
